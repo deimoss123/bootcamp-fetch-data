@@ -13,5 +13,6 @@ import axios from "axios";
     }
   }
 
-  console.log(uniqueTags);
+  const uniqueTagsArray = Array.from(uniqueTags);
+  console.log(uniqueTagsArray);
 })();
